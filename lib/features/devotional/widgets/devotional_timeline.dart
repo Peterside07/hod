@@ -131,7 +131,7 @@ class _TimelineItem extends StatelessWidget {
                       BoxShadow(
                         color: (devotional.isCompleted 
                           ? appColor.success 
-                          : appColor.primary).withValues(alpha:0.1),
+                          : appColor.primary).withOpacity(0.1),
                         blurRadius: 8,
                         offset: const Offset(0, 2),
                       ),
@@ -152,7 +152,7 @@ class _TimelineItem extends StatelessWidget {
                         devotional.dayOfWeek,
                         style: TextStyle(
                           fontSize: 10,
-                          color: Colors.white.withValues(alpha:0.8),
+                          color: Colors.white.withOpacity(0.8),
                         ),
                       ),
                     ],
@@ -188,7 +188,7 @@ class _TimelineItem extends StatelessWidget {
                   ),
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.black.withValues(alpha:0.05),
+                      color: Colors.black.withOpacity(0.05),
                       blurRadius: 8,
                       offset: const Offset(0, 2),
                     ),
@@ -233,7 +233,7 @@ class _TimelineItem extends StatelessWidget {
                                 vertical: 4,
                               ),
                               decoration: BoxDecoration(
-                                color: appColor.primary.withValues(alpha:0.1),
+                                color: appColor.primary.withOpacity(0.1),
                                 borderRadius: BorderRadius.circular(12),
                               ),
                               child: Text(

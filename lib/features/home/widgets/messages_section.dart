@@ -55,7 +55,7 @@ class MessageCard extends StatelessWidget {
                     end: Alignment.bottomCenter,
                     colors: [
                       Colors.transparent,
-                      Colors.black.withValues(alpha:0.7),
+                      Colors.black.withOpacity(0.7),
                     ],
                   ),
                 ),

@@ -38,7 +38,7 @@ class DevotionalHeader extends StatelessWidget {
               Container(
                 padding: const EdgeInsets.all(12),
                 decoration: BoxDecoration(
-                  color: appColor.primary.withValues(alpha:0.1),
+                  color: appColor.primary.withOpacity(0.1),
                   borderRadius: BorderRadius.circular(12),
                 ),
                 child: Icon(
@@ -61,13 +61,13 @@ class DevotionalHeader extends StatelessWidget {
                 end: Alignment.bottomRight,
                 colors: [
                   appColor.primary,
-                  appColor.primary.withValues(alpha:0.8),
+                  appColor.primary.withOpacity(0.8),
                 ],
               ),
               borderRadius: BorderRadius.circular(16),
               boxShadow: [
                 BoxShadow(
-                  color: appColor.primary.withValues(alpha:0.1),
+                  color: appColor.primary.withOpacity(0.1),
                   blurRadius: 10,
                   offset: const Offset(0, 4),
                 ),
@@ -81,7 +81,7 @@ class DevotionalHeader extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 14,
                     fontWeight: FontWeight.w600,
-                    color: Colors.white.withValues(alpha: 0.9),
+                    color: Colors.white.withOpacity( 0.9),
                   ),
                 ),
                 const SizedBox(height: 8),
@@ -100,7 +100,7 @@ class DevotionalHeader extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 14,
                     fontWeight: FontWeight.w500,
-                    color: Colors.white.withValues(alpha:0.8),
+                    color: Colors.white.withOpacity(0.8),
                   ),
                 ),
               ],

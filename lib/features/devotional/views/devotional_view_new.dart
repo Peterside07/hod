@@ -168,7 +168,7 @@ class _DevotionalCategoryCard extends StatelessWidget {
                       return Container(
                         decoration: BoxDecoration(
                           color: _getColorFromString(category.backgroundColor)
-                              .withValues(alpha: 0.2),
+                              .withOpacity( 0.2),
                           borderRadius: BorderRadius.circular(8),
                         ),
                         child: Icon(

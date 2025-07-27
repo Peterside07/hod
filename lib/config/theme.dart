@@ -37,27 +37,10 @@ class HodTheme {
       secondary: appColor.black,
     ),
     disabledColor: const Color.fromRGBO(74, 85, 104, 1),
-    cardTheme: CardThemeData(
-      margin: const EdgeInsets.symmetric(vertical: 5),
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
-      elevation: 5,
-      color: const Color.fromRGBO(242, 242, 247, 1),
-    ),
-    dialogTheme: DialogThemeData(
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(8),
-      ),
-    ),
-
-    switchTheme: SwitchThemeData(
-      trackColor: WidgetStateColor.resolveWith((states) => appColor.primary),
-      thumbColor: WidgetStateColor.resolveWith((states) => appColor.white),
-    ),
 
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(backgroundColor: appColor.primary, shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8))),
     ),
-    radioTheme: RadioThemeData(fillColor: WidgetStateColor.resolveWith((states) => appColor.primary)),
     // ignore: prefer_const_constructors
     textTheme: TextTheme(
       headlineLarge: TextStyle(

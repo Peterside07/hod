@@ -52,7 +52,7 @@ class VideoCard extends StatelessWidget {
                   gradient: LinearGradient(
                     begin: Alignment.bottomCenter,
                     end: Alignment.center,
-                    colors: [Colors.black.withValues(alpha: 0.6), Colors.transparent],
+                    colors: [Colors.black.withOpacity( 0.6), Colors.transparent],
                   ),
                 ),
               ),
@@ -63,7 +63,7 @@ class VideoCard extends StatelessWidget {
               child: Icon(
                 Icons.play_circle_fill,
                 size: 48,
-                color: Colors.white.withValues(alpha: .9),
+                color: Colors.white.withOpacity( .9),
               ),
             ),
           
@@ -80,7 +80,7 @@ class VideoCard extends StatelessWidget {
                       fontWeight: FontWeight.w600,
                       shadows: [
                         Shadow(
-                          color: Colors.black.withValues(alpha: 0.5),
+                          color: Colors.black.withOpacity( 0.5),
                           blurRadius: 2,
                         ),
                       ],

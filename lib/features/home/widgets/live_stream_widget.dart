@@ -69,7 +69,7 @@ class LiveStreamWidget extends StatelessWidget {
                           end: Alignment.bottomCenter,
                           colors: [
                             Colors.transparent,
-                            Colors.black.withValues(alpha:0.7),
+                            Colors.black.withOpacity(0.7),
                           ],
                         ),
                       ),
@@ -118,7 +118,7 @@ class LiveStreamWidget extends StatelessWidget {
                     child: Container(
                       padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
                       decoration: BoxDecoration(
-                        color: Colors.black.withValues(alpha: 0.6),
+                        color: Colors.black.withOpacity( 0.6),
                         borderRadius: BorderRadius.circular(12),
                       ),
                       child: Row(

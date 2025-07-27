@@ -197,7 +197,7 @@ class _DevotionalDetailViewState extends State<DevotionalDetailView> {
                                   padding: const EdgeInsets.all(8),
                                   decoration: BoxDecoration(
                                     color:
-                                        appColor.primary.withValues(alpha: 0.1),
+                                        appColor.primary.withOpacity( 0.1),
                                     shape: BoxShape.circle,
                                   ),
                                   child: Icon(
@@ -265,7 +265,7 @@ class _DevotionalDetailViewState extends State<DevotionalDetailView> {
                                   padding: const EdgeInsets.all(8),
                                   decoration: BoxDecoration(
                                     color:
-                                        appColor.primary.withValues(alpha: 0.1),
+                                        appColor.primary.withOpacity( 0.1),
                                     shape: BoxShape.circle,
                                   ),
                                   child: Icon(
