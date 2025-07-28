@@ -13,7 +13,7 @@ This project is developed against Flutter’s stable channel. Currently, the app
 Clone this repo by using the link below:
 
 ```
-
+https://github.com/Peterside07/hod
 ```
 
 
@@ -33,13 +33,6 @@ flutter run
 ```
 or run it from your IDE (Android Studio, VS Code, etc.) by selecting the target device and clicking the run button.
 
-## Testing the Application
-
-To run the tests, use the following command:
-```
-flutter test
-```
-
 
 
 ## Architecture and State Management
@@ -54,15 +47,7 @@ This project is built following the `Clean Architecture` principles, ensuring mo
 - lib/presentation: Widgets, screens, and UI logic.
 - lib/domain: Business logic, entities, and use cases.
 - lib/data: Repositories, APIs, and data sources.
-
-
-
-## Building APK for Testing
-To generate an APK for testing:
-
-```
-$  flutter build apk
-```
+- lib/core: Common utilities, constants, and extensions.
 
 ## Build link for testing
 You can download the latest build from the following link:
@@ -75,9 +60,6 @@ You can download the latest build from the following link:
 [Screenshot 4](assets/screenshots/screenshot4.png)
 [Screenshot 5](assets/screenshots/screenshot5.png)
 [Screenshot 6](assets/screenshots/screenshot6.png)
-
-
-
 
 
 ## To view the app on the web
