@@ -66,18 +66,22 @@ $  flutter build apk
 
 ## Build link for testing
 You can download the latest build from the following link:
-[Download APK](https://example.com/latest.apk)  
+[Download APK](https://drive.google.com/file/d/1j4ZEDehnuPclTYWMEd9DvVo9NXl3c2hG/view?usp=sharing)  
 
 ## App Screenshots
-[Screenshot 1](https://drive.google.com/file/d/1p0FauW7kPYFiXp6496_XxgU0juImT9bI/view?usp=sharing)
-[Screenshot 2](https://drive.google.com/file/d/1HvS2B1I3X6CdvjtOQ6Xo2D5KMn9bja1_/view?usp=sharing)
-[Screenshot 3](https://drive.google.com/file/d/1VbnZgfyeKtP_bacPnsW605xFLyCSt90c/view?usp=sharing)  
-[Screenshot 4](https://drive.google.com/file/d/1xBYU_9Yx-rFL3TFASgd8uugq14WZO4H2/view?usp=sharing)
-[Screenshot 5](https://drive.google.com/file/d/1GY1k67p6FwdM_vOaXVkc0PCRJtYify6Z/view?usp=sharing)
-[Screenshot 6](https://drive.google.com/file/d/1Ez2EHETh1yNm3RmDCamW23de8iLiBIM5/view?usp=sharing)  
+[Screenshot 1](assets/screenshots/screenshot1.png)
+[Screenshot 2](assets/screenshots/screenshot2.png)
+[Screenshot 3](assets/screenshots/screenshot3.png)
+[Screenshot 4](assets/screenshots/screenshot4.png)
+[Screenshot 5](assets/screenshots/screenshot5.png)
+[Screenshot 6](assets/screenshots/screenshot6.png)
+
+
+
+
 
 ## To view the app on the web
-[View on Web](https://example.com/web)
+[View on Web](https://appetize.io/app/b_syzqgx3uiuuif7vdsajp2s7xji)
     
 
 
